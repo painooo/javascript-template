@@ -1,0 +1,20 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "template repo for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/painooo/webpack-template.git"
+  },
+  "keywords": [],
+  "author": "pyr <salmonDude@proton.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/painooo/webpack-template/issues"
+  },
+  "homepage": "https://github.com/painooo/webpack-template#readme"
+}
