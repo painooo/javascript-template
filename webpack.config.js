@@ -12,7 +12,7 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/index.js"]
+    watchFiles: ["./src/index.js"],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -25,14 +25,16 @@ module.exports = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
-      { // Remove this if you don't need images
+      {
+        // Remove this if you don't need images
         test: /\.html$/i,
-        loader: "html-loader"
+        loader: "html-loader",
       },
-      { // Remove this if you don't need images
+      {
+        // Remove this if you don't need images
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
-      }
+      },
     ],
   },
 };
