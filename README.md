@@ -4,8 +4,7 @@ template repo for javascript :)
 **Remember to update package.json**
 **Especially name, desc, and scripts**
 
-
-No images: 
+No images:
 
 1. `npm uninstall html-loader`
 2. Remove html-loader and images from webpack.config.js
