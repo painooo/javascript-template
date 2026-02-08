@@ -1,4 +1,4 @@
-# webpack-template
+# javascript-template
 
 template repo for javascript :)
 **Remember to update package.json**
