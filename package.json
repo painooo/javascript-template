@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "javascript-template",
   "version": "1.0.0",
-  "description": "template repo for webpack",
+  "description": "template repo for javascript",
   "main": "index.js",
   "scripts": {
     "web:build": "webpack --config web/webpack.config.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/painooo/webpack-template.git"
+    "url": "git+https://github.com/painooo/javascript-template.git"
   },
   "keywords": [],
   "author": "pyr <salmonDude@proton.me>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/painooo/webpack-template/issues"
+    "url": "https://github.com/painooo/javascript-template/issues"
   },
-  "homepage": "https://github.com/painooo/webpack-template#readme",
+  "homepage": "https://github.com/painooo/javascript-template#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "css-loader": "^7.1.2",
