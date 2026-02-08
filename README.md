@@ -1,8 +1,16 @@
 # webpack-template
 
-template repo for webpack
+template repo for javascript :)
+**Remember to update package.json**
+**Especially name, desc, and scripts**
 
-Note: In html-loader is only needed if we want images. It can be deleted otherwise by:
+
+No images: 
 
 1. `npm uninstall html-loader`
 2. Remove html-loader and images from webpack.config.js
+
+No web:
+
+1. `npm uninstall html-loader css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server`
+2. `rm -r webpack.config.json`
