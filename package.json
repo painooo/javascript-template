@@ -4,8 +4,8 @@
   "description": "template repo for webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve",
+    "web:build": "webpack --config web/webpack.config.js",
+    "web:dev": "webpack serve --config web/webpack.config.js",
     "prettier": "prettier . --write",
     "check": "prettier . --check"
   },
