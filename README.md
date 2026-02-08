@@ -12,4 +12,4 @@ No images:
 No web:
 
 1. `npm remove html-loader css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server`
-2. `rm -r /web`
+2. `rm -r ./web`
